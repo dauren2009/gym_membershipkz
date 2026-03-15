@@ -1,0 +1,68 @@
+using System;
+
+namespace GymMembershipPractice
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Option 3 - Gym Membership");
+            Console.WriteLine();
+
+            // Input
+            Console.Write("Enter Membership Type: ");
+            string membershipType = Console.ReadLine();
+
+            Console.Write("Enter Number of Months: ");
+            int numberOfMonths = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter Monthly Fee: ");
+            double monthlyFee = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter Personal Trainer Fee: ");
+            double personalTrainerFee = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter Height in meters: ");
+            double heightInMeters = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter First Letter of Trainer Name: ");
+            char trainerNameLetter = Convert.ToChar(Console.ReadLine());
+
+            Console.Write("Is Premium Access (true/false): ");
+            bool isPremiumAccess = Convert.ToBoolean(Console.ReadLine());
+
+            // Calculations
+            double totalMembershipCost = numberOfMonths * monthlyFee;
+            double totalCostIncludingTrainerFee = totalMembershipCost + personalTrainerFee;
+
+            // Output entered values
+            Console.WriteLine();
+            Console.WriteLine("----- ENTERED VALUES -----");
+            Console.WriteLine("Membership Type: " + membershipType);
+            Console.WriteLine("Number of Months: " + numberOfMonths);
+            Console.WriteLine("Monthly Fee: " + monthlyFee);
+            Console.WriteLine("Personal Trainer Fee: " + personalTrainerFee);
+            Console.WriteLine("Height in meters: " + heightInMeters);
+            Console.WriteLine("Trainer Name Letter: " + trainerNameLetter);
+            Console.WriteLine("Is Premium Access: " + isPremiumAccess);
+
+            // Output data types
+            Console.WriteLine();
+            Console.WriteLine("----- DATA TYPES -----");
+            Console.WriteLine("membershipType type: " + membershipType.GetType());
+            Console.WriteLine("numberOfMonths type: " + numberOfMonths.GetType());
+            Console.WriteLine("monthlyFee type: " + monthlyFee.GetType());
+            Console.WriteLine("isPremiumAccess type: " + isPremiumAccess.GetType());
+
+            // Output calculations
+            Console.WriteLine();
+            Console.WriteLine("----- CALCULATIONS -----");
+            Console.WriteLine("Total Membership Cost: " + totalMembershipCost);
+            Console.WriteLine("Total Cost including Trainer Fee: " + totalCostIncludingTrainerFee);
+
+            Console.WriteLine();
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
+        }
+    }
+}
