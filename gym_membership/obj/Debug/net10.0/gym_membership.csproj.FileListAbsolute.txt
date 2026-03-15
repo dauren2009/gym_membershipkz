@@ -1,0 +1,14 @@
+C:\Users\iborgunn\source\repos\gym_membership\bin\Debug\net10.0\gym_membership.exe
+C:\Users\iborgunn\source\repos\gym_membership\bin\Debug\net10.0\gym_membership.deps.json
+C:\Users\iborgunn\source\repos\gym_membership\bin\Debug\net10.0\gym_membership.runtimeconfig.json
+C:\Users\iborgunn\source\repos\gym_membership\bin\Debug\net10.0\gym_membership.dll
+C:\Users\iborgunn\source\repos\gym_membership\bin\Debug\net10.0\gym_membership.pdb
+C:\Users\iborgunn\source\repos\gym_membership\obj\Debug\net10.0\gym_membership.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iborgunn\source\repos\gym_membership\obj\Debug\net10.0\gym_membership.AssemblyInfoInputs.cache
+C:\Users\iborgunn\source\repos\gym_membership\obj\Debug\net10.0\gym_membership.AssemblyInfo.cs
+C:\Users\iborgunn\source\repos\gym_membership\obj\Debug\net10.0\gym_membership.csproj.CoreCompileInputs.cache
+C:\Users\iborgunn\source\repos\gym_membership\obj\Debug\net10.0\gym_membership.dll
+C:\Users\iborgunn\source\repos\gym_membership\obj\Debug\net10.0\refint\gym_membership.dll
+C:\Users\iborgunn\source\repos\gym_membership\obj\Debug\net10.0\gym_membership.pdb
+C:\Users\iborgunn\source\repos\gym_membership\obj\Debug\net10.0\gym_membership.genruntimeconfig.cache
+C:\Users\iborgunn\source\repos\gym_membership\obj\Debug\net10.0\ref\gym_membership.dll
